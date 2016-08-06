@@ -11,9 +11,12 @@
     <link rel="icon" href="../../favicon.ico">
 
     <title>Sticky Footer Navbar Template for Bootstrap</title>
-
+	
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+	
+	<!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -44,7 +47,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#">UQSS</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
@@ -74,27 +77,34 @@
         <h1>Felt Form Entry</h1>
       </div>
 	  
-      <label for="inputIntensity" class="sr-only">Intensity</label>
+      <label for="inputIntensity">Intensity</label>
        <input type="text" id="inputIntestity" class="form-control" placeholder="Intensity" required autofocus>
+	   </br>
 	   
-	   <label for="inputLocation" class="sr-only">Location</label>
+	   <label for="inputLocation">Location</label>
         <input type="email" id="inputEmail" class="form-control" placeholder="Location" required autofocus>
+		</br>
 		
-		<label for="inputTime" class="sr-only">Time</label>
+		<label for="inputTime">Time</label>
         <input type="email" id="inputEmail" class="form-control" placeholder="Time" required autofocus>
+		</br>
 		
-		<label for="inputDate" class="sr-only">Date</label>
+		<label for="inputDate">Date</label>
         <input type="email" id="inputEmail" class="form-control" placeholder="Date" required autofocus>
+		</br>
 		
-		<label for="inputEmail" class="sr-only">Email address</label>
+		<label for="inputEmail">Email address</label>
         <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+		</br>
 		
-		<label for="inputFname" class="sr-only">Email address</label>
+		<label for="inputFname">Email address</label>
         <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+		</br>
 		
-		<label for="inputLname" class="sr-only">Email address</label>
+		<label for="inputLname">Email address</label>
         <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-    </div>
+		</br>
+	</div>
 
     <footer class="footer">
       <div class="container">
