@@ -51,9 +51,9 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li class="active"><a href="feltForm.php">FELT Report</a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
                   <ul class="dropdown-menu">
@@ -92,13 +92,103 @@
           <h1>Felt Form Entry</h1>
         </div>
 
-        <label for="inputIntensity">Intensity</label>
-         <input type="text" id="inputIntestity" class="form-control" placeholder="Intensity" required autofocus>
-       </br>
+        <h3 class="text-info">Time of event</h3>
+        <div class="row">
+          <div class="col-xs-6">
+            <label for="dateOfEvent">Date of Event</label>
+            <input type="text" id="dateOfEvent" class="form-control" placeholder="Date" required autofocus>
+          </div>
 
-       <label for="inputLocation">Location</label>
-          <input type="email" id="inputEmail" class="form-control" placeholder="Location" required autofocus>
-      </br>
+          <div class="col-xs-6">
+            <label for="localTime">Local Time</label>
+            <input type="text" id="localTime" class="form-control" placeholder="Local Time" required autofocus>
+          </div>
+        </div>
+
+        <hr>
+        <div class="clearfix"></div>
+        <h3 class="text-info">Where were you at the above time?</h3>
+
+
+
+        <div class="row">
+          <div class="col-xs-6">
+            <label for="state">State</label>
+            <input type="text" id="state" class="form-control" placeholder="State" required autofocus>
+          </div>
+
+          <div class="col-xs-6">
+            <label for="town">Town</label>
+            <input type="text" id="town" class="form-control" placeholder="Town" required autofocus>
+          </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+          <div class="col-xs-6">
+            <label for="streetAddress">Street Address</label>
+            <input type="text" id="streetAddress" class="form-control" placeholder="Street Address" required autofocus>
+          </div>
+
+          <div class="col-xs-6">
+            <label for="nearestCrossStreet">Nearest Cross Street</label>
+            <input type="text" id="nearestCrossStreet" class="form-control" placeholder="Nearest Cross Street" required autofocus>
+          </div>
+        </div>
+
+
+
+        <br>
+        <hr>
+
+        <div class="row">
+          <div class="col-xs-6">
+            <h3 class="text-info">Who Felt it?</h3>
+            <input type="radio" name="eventFelt" value="Yourself" checked> Yourself<br>
+            <input type="radio" name="eventFelt" value="Several People"> Several People<br>
+            <input type="radio" name="eventFelt" value="Many People"> Many People
+          </div>
+
+          <div class="col-xs-6">
+            <h3 class="text-info">At the Time of the Event, you Were...</h3>
+            <input type="radio" name="eventPlace" value="Indoors" checked> Indoors<br>
+            <input type="radio" name="eventPlace" value="Outdoors"> Outdoors<br>
+            <input type="radio" name="eventPlace" value="Sitting"> Sitting<br>
+            <input type="radio" name="eventPlace" value="Driving"> Driving<br>
+            <input type="radio" name="eventPlace" value="Sleeping"> Sleeping<br>
+            <input type="radio" name="eventPlace" value="Can't Remember"> Can't Remember
+          </div>
+        </div>
+
+        <br>
+        <hr>
+
+        <div class="row">
+          <h3 class="text-info">If Indoors...</h3>
+          <div class="col-xs-6">
+            <h4 class="text-info">The building was a...</h4>
+            <input type="radio" name="eventFelt" value="Home" checked> Home<br>
+            <input type="radio" name="eventFelt" value="Apartment"> Apartment<br>
+            <input type="radio" name="eventFelt" value="Store"> Store<br>
+            <input type="radio" name="eventFelt" value="Office"> Office<br>
+            <input type="radio" name="eventFelt" value="Other Large Building"> Other Large Building<br>
+            <input type="radio" name="eventFelt" value="Can't Remember"> Can't Remember
+          </div>
+
+          <div class="col-xs-6">
+            <h4 class="text-info">You were in the...</h4>
+            <input type="radio" name="eventPlace" value="Basement" checked> Basement<br>
+            <input type="radio" name="eventPlace" value="Ground Floor"> Ground Floor<br>
+            <input type="radio" name="eventPlace" value="First Floor"> First Floor<br>
+            <input type="radio" name="eventPlace" value="Higher Floor"> Higher Floor<br>
+            <input type="radio" name="eventPlace" value="Can't Remember"> Can't Remember
+          </div>
+        </div>
+
+
+
+        <br>
 
       <label for="inputTime">Time</label>
           <input type="email" id="inputEmail" class="form-control" placeholder="Time" required autofocus>
